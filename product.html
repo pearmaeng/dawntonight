@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dawn To Night</title>
+    <meta name="description" content="Web Technology final assignment creating a restaurant website.">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+
+        <!--NAV-->
+        <nav>
+            <div class="nav-logo">
+                <a href="index.html"><img src="img/nav-logo.png" alt="logo"></a>
+            </div>
+
+            <div class="nav-center">
+                <ol>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
+                </ol>
+            </div>
+
+            <div class="nav-right">
+                <a href="#"><img src="img/nav-basket.png" alt="cart"></a>
+
+                <a class="m-burger" href="#">
+                    <svg fill="#0C561C" width="800px" height="800px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" id="Glyph" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M26,16c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,14,26,14.896,26,16z" id="XMLID_314_"/><path d="M26,8c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,6,26,6.896,26,8z" id="XMLID_315_"/><path d="M26,24c0,1.104-0.896,2-2,2H8c-1.104,0-2-0.896-2-2s0.896-2,2-2h16C25.104,22,26,22.896,26,24z" id="XMLID_316_"/></svg>
+                </a>
+            </div>
+
+            <div class="m-nav">
+                    <li><a href="#" class="xbtn" >X</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="reservation.html">RESERVATION</a></li>
+                    <li><a href="product.html">PRODUCTS</a></li>
+            </div>
+
+        </nav>
+        
+        <!--HEAD-->
+        <header class="header-products">
+            <h2>Explore Our</h2>
+            <h1>FARM-FRESH PRODUCTS</h1>
+        </header>
+
+        <!--MAIN-->
+        <main class="main-products">
+
+            <section class="home-products">
+                <p>
+                    Here you can reserve and order seasonal fresh products, which will be delivered right to your home when ready. This will elevate your cooking with fresh and organic ingredients.
+                </p>
+                <div class="product-icon">
+                    <div class="fruit">
+                        <img src="img/products-1.png" alt="Fruit">
+                        <h4>Fruit</h4>
+                    </div>
+                    <div class="veg">
+                        <img src="img/products-2.png" alt="Vegetable">
+                        <h4>Vegetable</h4>
+                    </div>
+                    <div class="dairy">
+                        <img src="img/products-3.png" alt="Dairy">
+                        <h4>Dairy</h4>
+                    </div>
+                    <div class="egg">
+                        <img src="img/products-4.png" alt="Egg">
+                        <h4>Egg</h4>
+                    </div>
+                </div>
+            </section>
+
+            <section class="all-products">
+                <h2>Ready Products</h2>
+
+                <div class="ready-products">
+
+                    <div class="products-detail">
+                        <img src="img/product-1.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>POTATO</h4>
+                                <p>Earthy and firm—great for roasting or mashing.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-detail">
+                        <img src="img/product-2.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>TOMATO</h4>
+                                <p>Juicy and sweet, our tomatoes are hand-picked at peak ripeness.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-detail">
+                        <img src="img/product-3.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>WHITE ONION</h4>
+                                <p>Mild and crisp, ideal for cooking or raw dishes.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-detail">
+                        <img src="img/product-4.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>RED ONION</h4>
+                                <p>Sweet and sharp, perfect for grilling or salads.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-detail">
+                        <img src="img/product-5.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>CARROT</h4>
+                                <p>Crunchy and naturally sweet, perfect for snacking or cooking.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-detail">
+                        <img src="img/product-6.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>SWEET CORN</h4>
+                                <p>Tender kernels bursting with sweetness, perfect for boiling or grilling.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-detail">
+                        <img src="img/product-7.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>ASPARAGUS</h4>
+                                <p>Crisp and green with a delicate taste, ideal for roasting or steaming.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="products-detail">
+                        <img src="img/product-8.jpg" alt="">
+
+                        <div class="products-info">
+                            <div class="info-left">
+                                <h4>CABBAGE</h4>
+                                <p>Fresh and crunchy, great for slaws, stir-fries, or fermented dishes like kimchi.</p>
+                                <a href="#"><p>Product Details</p></a>
+                            </div>
+                            
+                            <div class="info-right">
+                                <h4>$ 1.99</h4>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="99">
+                                <br>
+                                <button>Add</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            
+
+        </main>
+        
+        <!--FOOTER-->
+        <footer>
+            <div class="footer-left">
+                <a href="index.html"><img src="img/footer-logo.png" alt="logo-white"></a>
+            </div>
+
+            <div class="footer-center">
+                <ol>
+                    <li><a href="about.html">Story</a></li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ol>
+            
+                <ol>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="product.html">Products</a></li>
+                </ol>
+            </div>
+
+            <div class="footer-right">
+                <img src="img/footer-icons.png" alt="icons">
+                <p>This website is created and designed
+                    <br>by Pawara Prapawuttikul
+                </p>
+                <p>&copy;2025</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
